@@ -5,6 +5,8 @@ pub trait Trait: system::Trait {}
 decl_storage! {
     trait Store for Module<T: Trait> as KittyStorage {
         // Declare storage and getter functions here
+        MyU32: u32;
+        MyBool get(my_bool_getter): bool;
     }
 }
 
