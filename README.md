@@ -1,4 +1,4 @@
-# substratekitties
+# substratekitties on Substrate Framework (RUST)
 
 A new SRML-based Substrate node, ready for hacking.
 
